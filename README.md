@@ -2,8 +2,8 @@
 # finalproyec1
 # Inventario-de-productos
 # Coder: 
-- Hector Carvajal
-## Link repositorio : https://github.com/hecarde2/finalproyec1.git
+- Hector Carvajal[
+## Link repositorio : 
 
 # Descripción
 
