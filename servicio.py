@@ -41,8 +41,8 @@ def mostrar_menu():
  print("3. Buscar un estudiante por el nombre")
  print("4.Actualizar la información de un estudiante.")
  print("5. Eliminar estudiantes.")
- print("6. Guardar CSV")
- print("7. Cargar CSV")
+ print("6. Guardar csv")
+ print("7. Cargar csv")
  print("8. Salir")
 
 
@@ -64,7 +64,7 @@ def buscar_estudiante(estudiantes):
 
     for p in estudiantes:
         if p["nombre"].lower() == nombre.lower():
-            print("estudiante encontrado:")
+            print("estudiante encontrado: ")
             print(p)
             return
 
@@ -74,8 +74,9 @@ def buscar_estudiante(estudiantes):
     # ACTUALIZAR ESTUDIANTE
 
 def actualizar_estudiante(estudiantes):
+    print("tenga encuenta que los datos se actualizan todos")
 
-    nombre = input("Actualizar estudiantes: ").strip()
+    nombre = input("Nombre del estudiante a actualizar / escriba no si ya no desea, lo regresa al menú principal: ").strip()
 
     for p in estudiantes:
         if p["nombre"].lower() == nombre.lower():
@@ -97,10 +98,20 @@ def actualizar_estudiante(estudiantes):
             print("datos actualizados")
             return
 
-    print("estudiante no encontrado")
+    print("estudiante no encontrado o salio de la actualización de datos")
 
-    
+    # ELIMINAR ESTUDIANTE
+def eliminar_estudiante(estudiantes):
 
+    nombre = input("nombre completo del estudiante que desea eliminar: ").strip()
+
+    for p in estudiantes:
+        if p["nombre"].lower() == nombre.lower():
+            estudiantes.remove(p)
+            print("Estudiante eliminado")
+            return
+
+    print("No se encontro estudiante")
 
 
 
