@@ -1,9 +1,8 @@
 # prueba_de_-desempe-o
-# finalproyec1
-# Inventario-de-productos
+# Registro de estudiantes
 # Coder: 
-- Hector Carvajal[
-## Link repositorio : 
+- Hector Carvajal
+## Link repositorio : https://github.com/hecarde2/prueba_de_-desempe-o.git
 
 # Descripción
 
